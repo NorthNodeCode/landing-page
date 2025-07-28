@@ -18,7 +18,7 @@ ul{
 
 .hlogo{
     display:flex;
-    flex:auto;
+    flex:1;
     flex-wrap: wrap;
     align-items: center;
 }
@@ -39,14 +39,14 @@ nav {
 }
 .navcontainer{
     display:flex;
-    flex:auto;
+    flex:1;
     flex-wrap: wrap;
     justify-content: space-between;
     margin:0px 200px;
 }
 nav ul{
     display:flex;
-    margin-left: auto;
+    padding:0;
 
 }
 
@@ -55,6 +55,7 @@ nav li{
     padding:2em;
     gap:2em;
     font-size: 18px;
+    margin-left: auto;
 }
 nav li a{
     color: #e5e7eb;
@@ -69,8 +70,8 @@ nav li a{
 }
 .first img{
     display:flex;
-    flex:auto;
-    max-width:300px;
+    flex:1;
+    max-width:500px;
     border-radius: 100px;
     padding:16px;
     margin:16px;
@@ -80,6 +81,7 @@ nav li a{
 .textbox{
     display:flex;
     flex-direction: column;
+    justify-content: space-evenly;
     padding:16px;
     margin-left:16px;
     margin-right:auto;
@@ -202,8 +204,9 @@ h2.header{
     display:flex;
     flex-direction: column;
     background-color:#E5E7EB;
-    flex:auto;
+    flex:1;
     justify-content: space-between;
+    padding:150px 200px;
 
 }
 
@@ -211,9 +214,8 @@ h2.header{
     display:flex;
     flex-direction: column;
     align-items:center;
-    flex:auto;
+    flex:1;
     gap:16px;
-    padding:150px 200px;
 }
 
 .quote{
@@ -254,6 +256,7 @@ h2.header{
 
 .signupbox{
     display:flex;
+    flex:1;
     flex-wrap: wrap;
     padding:20px;
     
