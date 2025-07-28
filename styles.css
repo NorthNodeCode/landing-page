@@ -66,14 +66,17 @@ nav li a{
     max-width:300px;
     border-radius: 100px;
     padding:16px;
-    margin:200px;
+    margin:16px;
     margin-left:auto;
 }
 
 .textbox{
+    display:flex;
+    flex-direction: column;
     padding:16px;
-    margin-left:200px;
+    margin-left:16px;
     margin-right:auto;
+    gap:16px;
 
 }
 
@@ -82,7 +85,6 @@ nav li a{
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
-    padding-bottom: 32px;
     
 }
 
@@ -95,4 +97,26 @@ nav li a{
     display:flex;
     flex:auto;
     align-items: center;
+    gap:16px;
+}
+.buttons{
+    display:flex;
+    flex:auto;
+    flex-shrink: 0;
+}
+button.signup{
+    display:flex;
+    flex: 0 0 1;
+    background-color: #3882f6;
+    border:0px;
+    border-radius:10px;
+
+}
+
+button a{
+    text-decoration: none;
+    color:#E5E7EB;
+    font-weight: bold;
+    padding: 10px;
+
 }
