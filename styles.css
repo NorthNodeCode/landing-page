@@ -1,5 +1,5 @@
 body{
-    font-family: Roboto;
+    font-family: Roboto, Arial, sans-serif;
     display:flex;
     flex-direction: column;
     margin:0;
@@ -18,13 +18,12 @@ ul{
 
 .hlogo{
     display:flex;
-    flex:auto;
+    flex:1;
     flex-wrap: wrap;
     align-items: center;
 }
 .hlogo img{
     max-width: 400px;
-    padding-left: 16px;
 }
 
 nav {
@@ -38,9 +37,16 @@ nav {
     background-color: #0f172a;
 
 }
+.navcontainer{
+    display:flex;
+    flex:1;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:0px 200px;
+}
 nav ul{
     display:flex;
-    margin-left: auto;
+    padding:0;
 
 }
 
@@ -49,6 +55,7 @@ nav li{
     padding:2em;
     gap:2em;
     font-size: 18px;
+    margin-left: auto;
 }
 nav li a{
     color: #e5e7eb;
@@ -63,8 +70,8 @@ nav li a{
 }
 .first img{
     display:flex;
-    flex:auto;
-    max-width:300px;
+    flex:1;
+    max-width:500px;
     border-radius: 100px;
     padding:16px;
     margin:16px;
@@ -74,6 +81,7 @@ nav li a{
 .textbox{
     display:flex;
     flex-direction: column;
+    justify-content: space-evenly;
     padding:16px;
     margin-left:16px;
     margin-right:auto;
@@ -107,6 +115,7 @@ nav li a{
     align-items: center;
     gap:16px;
     padding-bottom: 10px;
+    margin:0px 200px;
 }
 .buttons{
     display:flex;
@@ -138,13 +147,15 @@ button a{
     flex-direction: column;
     background-color: white;
     flex:auto;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+    padding: 0 200px;
 }
 
 .header2{
     display:flex;
+    align-self: center;
+    padding-top: 30px;
 }
 
 h2.header{
@@ -156,16 +167,21 @@ h2.header{
 
 .cards{
     display:flex;
+    flex:auto;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content:space-evenly;
+    align-content: center;
+    padding-bottom:50px;
 }
 
 .imgcard{
     display:flex;
+    flex:1 1 0;
     flex-direction: column;
-    max-width: 180px;
+    max-width: 100%;
     padding: 32px;
     gap:8px;
+    align-content: center;
     align-items: center;
 }
 
@@ -173,7 +189,8 @@ h2.header{
     display:flex;
     border:8px solid #3882f6;
     border-radius: 16px;
-    max-width: 180px;
+    object-fit: cover;
+    max-width: 100%;
 
 }
 
@@ -187,15 +204,17 @@ h2.header{
     display:flex;
     flex-direction: column;
     background-color:#E5E7EB;
-    flex:auto;
-    justify-content: space-around;
+    flex:1;
+    justify-content: space-between;
+    padding:150px 200px;
+
 }
 
 .quotebox{
     display:flex;
     flex-direction: column;
-    padding:64px;
-    flex:auto;
+    align-items:center;
+    flex:1;
     gap:16px;
 }
 
@@ -207,7 +226,7 @@ h2.header{
 
 .quotesayer{
     margin-left:auto;
-    padding-right:8px;
+    padding-right:16px;
     font-weight: bold;
 }
 
@@ -219,8 +238,8 @@ h2.header{
     justify-content: center;
     align-items: stretch;
     flex-wrap: wrap;
-    padding:32px;
-    margin:64px;
+    padding:50px 200px;;
+    margin:50px 100px;
 }
 
 .fourth .box{
@@ -237,6 +256,7 @@ h2.header{
 
 .signupbox{
     display:flex;
+    flex:1;
     flex-wrap: wrap;
     padding:20px;
     
