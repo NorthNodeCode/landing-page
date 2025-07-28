@@ -244,19 +244,19 @@ h2.header{
 
 .fourth .box{
     display:flex;
+    flex:1;
     flex-direction: row;
     background-color:#3882f6;
     padding:12px;
     border-radius: 10px;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 
 }
 
 .signupbox{
     display:flex;
-    flex:1;
     flex-wrap: wrap;
     padding:20px;
     
