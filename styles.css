@@ -2,7 +2,7 @@ body{
     font-family: Roboto;
     display:flex;
     flex-direction: column;
-    /* background-color: #0f172a; */
+    margin:0;
 }
 
 a{
@@ -30,7 +30,7 @@ nav {
     display:flex;
     flex:auto;
     flex-wrap: wrap;
-    padding:16px;
+
     gap:16px;
     justify-content: space-between;
     align-items: center;
@@ -93,6 +93,13 @@ nav li a{
     font-size:18px;
     color:#E5E7EB;
 }
+.speech{
+    flex-direction: column;
+    gap:8px;
+}
+.speech .smallertext{
+    font-size: 16px;
+}
 .content{
     display:flex;
     flex:auto;
@@ -119,4 +126,56 @@ button a{
     font-weight: bold;
     padding: 10px;
 
+}
+
+
+
+
+.second{
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    flex:auto;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header2{
+    display:flex;
+}
+
+h2.header{
+    font-size:36px;
+    font-weight: 900;
+    color:#1F2937;
+}
+
+
+.cards{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imgcard{
+    display:flex;
+    flex-direction: column;
+    max-width: 180px;
+    padding: 32px;
+    gap:8px;
+    align-items: center;
+}
+
+.imgcard img{
+    display:flex;
+    border:8px solid #3882f6;
+    border-radius: 16px;
+    max-width: 180px;
+
+}
+
+.imgcard .text{
+    text-align: center;
+    color: #58616f;
 }
